@@ -1,0 +1,27 @@
+<!-- TAKING SUBMIT OR BUTTON AND ACCEPTING NAME FROM USER AND SHOWING OUTPUT USING FUNCTION -->
+<!-- FN AND USER INPUT -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<input type="text" id="nm">
+	<!--<input type="submit" onclick="myname()" value="go"> --> <!--using submit -->
+	<!--<button type="btn" onclick="myname()"> click to check name </button> --><!--using button -->
+	<p id="demo">output here</p>
+	<script type="text/javascript">
+		function myname()
+		{
+			var a=document.getElementById('nm').value;
+			document.getElementById("demo").innerHTML=a;
+			console.log(a);
+			window.alert(a);
+		}
+	</script>
+
+</body>
+</html>
+
+
