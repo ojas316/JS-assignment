@@ -1,0 +1,43 @@
+<!--2 METHODS
+	1)TAKING USER I/P, USING FN, BT NOT PASSING VALUE IN IT,AND PRINTING THERE ITSELF
+	2) TAKING USER I/P, USING FN, BT NOT PASSING VALUE IN IT, AND RETURNING VALUE USING .innerHTML
+		ALSO FIND HOW TO RETUR USING RETURN KEYWORD -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="xy">o/p here </p>
+	<input type="number" id="no1">
+	<input type="number" id="no2">
+	<input type="number" id="no3">
+	<button type="btn" onclick="greatest()">Find Greatst </button>
+		<script type="text/javascript">
+			function greatest()
+			{	
+				var a=document.getElementById("no1").value;
+				var b=document.getElementById("no2").value;
+				var c=document.getElementById("no3").value;
+				/*if(a>b&&a>c)
+					document.write(a);
+				else if(b>c&&b>a)
+					document.write(b);
+				else
+					document.write(c);
+				*/
+			var max=a;
+			if(b>max)
+				max=b;
+			if(c>max)
+				max=c;
+				document.getElementById("xy").innerHTML=max;
+
+
+			}
+
+		</script>
+
+</body>
+</html>
