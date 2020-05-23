@@ -1,0 +1,48 @@
+<!-- WITHOUT USING EXTRA FUNCTION AND DIRECTLY GIVING VALUE
+NOTE : TRIED BY USING ALL THREE PREDEF FUN IN SINGLE ONCLICK BUT DIDNT WORKED -->
+<!-- NO FN AND NO USER INPUT -->
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button type="button" onclick="document.write('ojas')">ONPAGE</button>
+	<button type="button" onclick="console.log('ojas')">CONSOLE</button>
+	<button type="button" onclick="window.alert('ojas')">ALERT</button>
+
+
+</body>
+</html>
+-->
+
+
+
+
+<!-- USER INPUT TAKEN, BUT NO EXTRA FN USED, HENCE 3 BUTTON REQ, GOT O/P SAME AS 1.0 BUT SLIGHTLY DIFF -->
+<!-- NO FN AND BUT USER INPUT -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id='a'>here</p>
+	<input type="textbox" id="nm">
+	
+	<button type="btn" onclick="document.getElementById('a').innerHTML=b"> page but </button> 
+	<!--<button type="btn" onclick="document.write(b)"> page  </button>-->
+	<button type="btn" onclick="console.log(b)"> console </button>
+	<button type="btn" onclick="window.alert(b)"> alert </button>
+
+		<script type="text/javascript">
+			var b= document.getElementById("nm").value;
+		</script>
+
+</body>
+</html>
+
