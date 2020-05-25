@@ -1,0 +1,31 @@
+<!-- ACCEPTING NAME AND PRINTING USING FN -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 id="o">o/p here</h1>
+	<h2 id="p">o/p here</h2>
+	<h3 id="q">o/p here</h3>
+	<h4 id="r">o/p here</h4>
+	<h5 id="s">o/p here</h5>
+
+	<input type="text" id="nm">
+	<!--<button type="btn" onclick="myname()">submit</button> -->
+	<input type="submit" onclick="myname()" value="go">
+	<script type="text/javascript">
+		function myname()
+		{
+			var a=document.getElementById('nm').value;
+			document.getElementById("o").innerHTML=a;
+			document.getElementById("p").innerHTML=a;
+			document.getElementById("q").innerHTML=a;
+			document.getElementById("r").innerHTML=a;
+			document.getElementById("s").innerHTML=a;
+		}
+
+	</script>
+
+</body>
+</html>
